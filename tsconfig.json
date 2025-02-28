@@ -8,6 +8,12 @@
     "incremental": true,
     "tsBuildInfoFile": "./.tsbuildinfo",
     "moduleResolution": "node",
-    "resolveJsonModule": true
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["pinia"]
   }
 }
